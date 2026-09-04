@@ -14,6 +14,10 @@ C# .NET Framework 3.5 class library of shared helpers for VaderConsulting WinFor
 
 Open `VaderConsulting.Helper.csproj` in Visual Studio 2013 or later (ToolsVersion 12.0). There is no `.sln` in this folder. `frmProgress.cs`, `CustomToolTip.cs`, `Attribute.cs`, `Enums.cs`, and `Settings.cs` are present but not listed in the `.csproj` Compile items.
 
+## Requirements
+
+- Visual Studio 2013 or later, .NET Framework 3.5
+
 ## Attribution and provenance
 
 Working copy from Dave Robinson's OneDrive Historical Dev folder `VaderConsulting.Helper`. Assembly title/product `VaderConsulting.Helper`; the Visual Studio template still has company/copyright Microsoft 2015. Namespace `VaderConsulting.Helper`. `packages.config` lists AsyncBridge 0.1.1; `App.config` has leftover Entity Framework 6 LocalDB section. Neither is referenced by the `.csproj`.
